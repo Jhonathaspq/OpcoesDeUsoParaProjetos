@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- criação do input -->
+    <input type="text" name="uppercaseInput" id="uppercaseInput">
+
+    <!-- Script para colocar as letras em maiusculo -->
+    <script>
+        document.getElementById('uppercaseInput').addEventListener('input', function (e) {
+            e.target.value = e.target.value.toUpperCase();
+        });
+    </script>
+</body>
+
+</html>
